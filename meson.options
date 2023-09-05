@@ -1,0 +1,3 @@
+option('hidraw', type: 'boolean', value: true, description: 'Hidraw support')
+option('libusb', type: 'boolean', value: false, description: 'LibUSB support')
+option('libusb_static', type: 'boolean', value: false, description: 'Link libusb static')
